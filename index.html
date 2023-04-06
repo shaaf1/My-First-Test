@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   <!-- <h1>Heading 1</h1>
+   <h2>Heading 2</h2>
+   <h3>Heading 3</h3>
+   <h4>Heading 4</h4>
+   <h5>Heading 5</h5>
+   <h6>Heading 6</h6>
+   <p>This is a paragraph tag</p>
+   <a href="https://www.google.com/"> this is a link tag </a>
+   <img src="data:image/jpeg;base64,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" alt=""> 
+   <p style="color: aqua;" > this is a line breaking <br>tag and also a colour tag</p>
+   
+   <body style="background-color: rgb(86, 82, 82);">
+<p style="font: x-large;"> this is a font size tag</p>
+<b><p>this is bold tag</p></b>
+<i><p>this is italic tag</p></i>
+<u><p>this is underline tag</p></u>
+<em>this is emphaziziz tag</em>
+<p>this is mark tag</p>
+<small>this is small tag</small> <br>
+<del>this is delete tag</del>
+<p><sub>this is subscript tag</sub> 2</p><hr>
+<p>this is hr tag</p>
+<p><sup> 2</sup> this is superscript tag</p>
+<q>this is qutation</q>
+<p></p><abbr title="this abbr tag "></abbr></p>
+<address>
+block 21
+gulshan-e-amin plaza 
+sb1
+c24 
+2nd floor 
+
+</address> <hr> -->
+<!-- <p>heading is a tag in which we can head in the top</p>
+<p>in bold tag we can bold our text </p>
+<p>in strong tag it, is ussually like bold tag</p>
+<i>in italic tag we can do our words in a italic form</i>
+<p>in em tag we can but it is ussually like italic tag</p>
+<p>in dele tag we can do in text between line like this <del>this is an example of deleted tag</del></p>
+<p>in sub tag it is used to formula like this H <sub>2</sub> O</p>
+<p>in sup tag it is used to formula like this CO <sup>2</sup></p>
+<p>in address tag we can tell the address of any home</p>
+<p>in hr tag we can make a line in it like this <hr>
+this is an example of hr tag
+<p>in label tag we can label in the form like this </p>
+<form action="">
+    <label for="user name">user name</label>
+<input type="text" placeholder="enter user name" name="user name" id="user name">
+<p>in input tag we can make a box and we can write in it</p> <hr>
+ -->
+<!-- </form> -->
+<!-- </p> -->
+<p> the difrence in bold and strong is strong tag is uesd to write important text and bold is used to wrtie little bit big </p>
+<p>the difrence in italic and emphaziz is that emphaziz do text emphaziz and italic do italic and there is no differnce between them</p>
+<p>in sub we can write text upper from next text and in sup text we can write txt or num in the upper of the txt </p>
+<p>and the differnce in hr and br is hr is used to make a line in a gap and br is used to make line </p>
+   </body>
+</body>
+</html>
